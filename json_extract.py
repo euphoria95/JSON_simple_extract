@@ -37,9 +37,6 @@ def main(input_file, output_file):
 
     print("Dane zostały zapisane do", output_file)
 
-# Reszta skryptu pozostaje taka sama
-
-
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Użycie: python3 skrypt.py <input_file> <output_file>")
